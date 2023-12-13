@@ -1,6 +1,7 @@
 import yayJpg from '../assets/yay.jpg';
 
 export default function HomePage() {
+  console.log('just write a async func', async () => await 'want-to-see-async-keyword-in-build-assests')
   return (
     <div>
       <h2>Yay! Welcome to umi!</h2>

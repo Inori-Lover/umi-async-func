@@ -6,4 +6,6 @@ export default defineConfig({
     { path: "/docs", component: "docs" },
   ],
   npmClient: 'pnpm',
+  /** @url https://umijs.org/docs/api/config#targets */
+  targets: { chrome: 100 }
 });
